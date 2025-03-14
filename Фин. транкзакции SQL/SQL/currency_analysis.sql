@@ -1,3 +1,6 @@
+-- оператор, который возвращает всех пользователей, все транзакции по балансу
+-- с названием валюты и рассчитанным значением валюты в долларах США на следующий день.
+
 -- alter table "user" rename to person;
 
 CREATE OR REPLACE FUNCTION last_rate(currency_name VARCHAR)
